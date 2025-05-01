@@ -1,60 +1,53 @@
-# PowerBI_Performance_Report
+# 📊 Company Quantity Performance Report 2023
 
-Overview
-This dashboard presents a high-level view of quantity performance metrics across the year 2023, with comparisons to the previous year (PYTD) and a focus on Year-to-Date (YTD) values.
+This Power BI dashboard provides a comprehensive overview of **quantity performance** across the year 2023, comparing **Year-to-Date (YTD)** values with **Previous Year-to-Date (PYTD)**, along with insights into product types, regional trends, and customer profitability.
 
-🔹 Key Metrics (Top Cards)
-YTD: 13.00M units
+---
 
-YTD vs PYTD Difference: +17.05K units (highlighted in green, positive change)
+## 🔹 Key Metrics
+| Metric            | Value       |
+|-------------------|-------------|
+| **YTD**           | 13.00M      |
+| **YTD vs PYTD**   | +17.05K     |
+| **PYTD**          | 538.61K     |
+| **GP%**           | 39.62%      |
 
-PYTD: 538.61K units
+---
 
-GP% (Gross Profit %): 39.62%
+## 🔹 Visuals Breakdown
 
-🔹 Visuals Breakdown
-Treemap – Bottom 10 Countries by YTD vs PYTD
-Highlights the lowest performing countries in terms of quantity difference (e.g., China, France, Sweden) — negative values indicate decline.
+### 🧩 Treemap – Bottom 10 Countries by YTD vs PYTD
+- Highlights countries with the most significant negative changes.
+- Countries like **China**, **France**, and **Sweden** show declines up to -9.76K units.
 
-Waterfall Chart – Monthly Quantity Change by Country/Product
-Shows monthly cumulative changes between YTD and PYTD, with:
+### 📉 Waterfall Chart – Monthly Quantity Change (YTD vs PYTD)
+- Compares quantity changes month-over-month.
+- Green bars = increases, red bars = decreases.
+- Net gain of **+17K units** over the year.
 
-Green bars for increases
+### 📊 Stacked Column & Line Chart – Quantity by Product Type (YTD & PYTD)
+- Stacked bars represent **Indoor**, **Landscape**, and **Outdoor** product types.
+- Red line shows **PYTD** trend across months.
+- Provides seasonal and product-level performance comparison.
 
-Red bars for decreases
+### 🎯 Scatter Plot – Account Profitability Segmentation
+- Plots **GP% vs Value YTD** for customer accounts.
+- Helps identify high-value/high-profit vs low-value/low-profit segments.
+- Red dotted lines show average GP% and quantity thresholds.
 
-Total net gain: 17K units
+---
 
-Stacked Column + Line Chart – Quantity YTD vs PYTD by Month and Product Type
+## 🔹 Interactivity
+- **Year Selector:** Currently set to **2023**.
+- **Metric Toggle:** Switch between **Gross Profit**, **Quantity**, and **Sales**.
+- **Scatter Filters:** Slider controls to filter by GP% and value YTD.
 
-Stacked bars show indoor, landscape, and outdoor product types.
+---
 
-A red line overlays the PYTD values month by month.
+## ✅ Summary
+This report offers:
+- Clear YTD vs PYTD comparisons.
+- Identification of underperforming regions.
+- Insights into product performance and customer segmentation.
+- Interactive tools for deeper analysis.
 
-Scatter Plot – Account Profitability Segmentation (GP% vs Quantity)
-
-Each dot represents an account.
-
-Axes: GP% vs Value YTD.
-
-Dotted red lines likely indicate average thresholds for segmentation.
-
-🔹 Interactivity
-The dashboard includes slicers/filters:
-
-Year selector: Currently set to 2023.
-
-Metric selector (left top): Can switch between Quantity, Gross Profit, and Sales.
-
-Slider controls on the scatter plot (filter GP% and YTD value range).
-
-✅ Overall Impression
-This is a well-organized performance dashboard offering:
-
-Year-over-year comparison,
-
-Insight into underperforming regions,
-
-Product segmentation,
-
-Customer profitability evaluation.
